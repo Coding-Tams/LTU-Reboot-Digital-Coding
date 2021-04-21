@@ -1,7 +1,7 @@
 CPD - Continuing Professional Development
 
 Date of CPD activity
-11/04/2021
+21/04/2021
 
 CPD activity
 Introduction to Web Development
