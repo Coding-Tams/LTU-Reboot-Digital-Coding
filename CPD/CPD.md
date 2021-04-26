@@ -1,17 +1,17 @@
 CPD - Continuing Professional Development
 
 Date of CPD activity
-21/04/2021
+26/04/2021
 
 CPD activity
 Introduction to Web Development
 
-What have I learnt? 
+What have I learnt? I learnt about attributes 
 
 Different methods
 
-How did I use this in practice?
+How did I use this in practice? Coded a clone Google page.
 
-What did I find hard?
+What did I find hard? I have trouble with coding images.
 
 
