@@ -84,9 +84,59 @@ function calculator (num1, num2, operator) {
     }
 } /*end of calculation*/
 
-calculator(5, 5, '+')
+/*calculator(5, 5, '+')
 calculator(5, 5, '-')
 calculator(5, 5, '*')
-calculator(5, 5, '/')
+calculator(5, 5, '/')*/
+
+/*let prouductArray = [productName, price, quantity, inStock, discountAmount]
+
+console.log(prouductArray)
+
+let firstItem = productArray[0]
+
+let lastItem =  productArray[4]
+
+console.log(firstItem)
+console.log(lastItem)*/
+
+let productAsAnItem ={
+    productName:'Baked Beans',
+    price: 0.89,
+    quantity: 2,
+    inStock: true,
+    discountApplied: 0.2,
+};
+
+//console.log(productAsAnItem.productName)
+
+
+//productAsAnObject.price =1.25 
+
+//productAsAnObject.instock = false;
+
+//productAsAnObject.loyaltyCard = true;
+
+//console.log(productAsAnObject.loyaltyCard)
+ 
+//delete.productAsAnObject
+
+/*let numbers =[1,2,3,4,5,6,7,8,9,];
+for( let counter = 0; counter < 5; counter++){
+    console.log(counter);
+
+}*/
+
+/* for loop
+counter = 1
+counter <= 12 
+counter++*/
+
+for(let counter = 1; counter <= 12; counter++ ){
+    let result = num * counter;
+    console.log( '${num} * ${counter} = ${result}' );
+
+}
+multiplyBy(10);
 
 
