@@ -12,7 +12,7 @@ let message = document.getElementById('message');
     message.textContent = `You have selected : `;
 
 let el = document.getElementById('colours');
-    el.textContent = colours[0];
+    el.textContent = colours[3];
 
 
 // To know how many items are in an array we use the length property : colours.length
