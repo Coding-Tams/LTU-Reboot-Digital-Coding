@@ -172,9 +172,9 @@ console.log(discountToiletries (shoppingCart));
 
 
 
-5. If it is then remove 50% from its price and add it to the totalPrice
+/*5. If it is then remove 50% from its price and add it to the totalPrice
 6. Else just work out the price and add it to the totalPrice
 7. outside of the for loop but still inside the function return totalPrice
 8. 
-   * Your output should be: 68.22
+   * Your output should be: 68.22*?
 
