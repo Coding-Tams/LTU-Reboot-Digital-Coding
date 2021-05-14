@@ -1,7 +1,7 @@
-const buttons = document.querySelectorAll("buttons");
+const buttons = document.querySelectorAll("button");
 let allImages = document.querySelectorAll('.image');
 
-const toggleImages = (dataclass) => {
+const toggleImages = (dataClass) => {
   // if(dataclass === "all") {
     
   //   allImages.forEach( image => image.style.display = "flex")
@@ -23,22 +23,22 @@ const toggleImages = (dataclass) => {
 
    // });
  // }
-   dataclass === "all" 
+   dataClass === "all" 
    ? allImages.forEach( image =>  image.style.display = 'flex') 
    :allImages.forEach (image =>{
-    image.dataset.class === dataclass
+    image.dataset.class === dataClass
      ?image.style.display = 'flex'
-    :image.style,display = 'none';
+    :image.style.display = 'none';
 
    })
  }
 
 
 
-//    const toggleActiveClass = (active) =>{
-//      buttons.forEach( button => button.classlist.remove ("active"))
-//      active.classList.add("active");
-//   }
+   const toggleActiveClass = (active) =>{
+     buttons.forEach( button => button.classList.remove("active"));
+     active.classList.add("active");
+  }
 
   // for(let counter = 0; counter < buttons.length; counter++) {
   //   buttons[counter].addEventListener('click', function(){
@@ -48,8 +48,8 @@ const toggleImages = (dataclass) => {
 
      buttons.forEach( button => {
        button.addEventListener( 'click', () => {
-        //  toggleImages(button.dataset.class);
-        //  toggleActiveClass( button ); 
-        console.log("click")
+         toggleImages(button.dataset.class);
+          toggleActiveClass( button ); 
+        
        })
      });
